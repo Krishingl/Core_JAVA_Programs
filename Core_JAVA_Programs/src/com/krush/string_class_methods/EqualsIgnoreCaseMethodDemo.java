@@ -23,7 +23,6 @@ public class EqualsIgnoreCaseMethodDemo {
 
 		System.out.println(
 				"s2.equalsIngnoreCase(s3) (this method are check the object content withoutcase, here A and a are  equals )"
-					
 						+ s2.equalsIgnoreCase(s3));
 
 	}
