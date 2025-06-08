@@ -35,8 +35,8 @@ public class CharAtDemo {
 		}else 
 			System.out.println("your gender is female ");
 		
-		
-		
+		//charAt(Index position) method are present in String Class its non- Static method and returns the as our user given index character
+		//if its not match then it shows indexOutOffBond Exception.
 		
 	sc.close();
 
