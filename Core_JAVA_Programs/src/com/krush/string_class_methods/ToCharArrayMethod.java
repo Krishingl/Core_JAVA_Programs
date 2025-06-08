@@ -1,6 +1,6 @@
 package com.krush.string_class_methods;
 
-
+import java.util.Arrays;
 public class ToCharArrayMethod {
 	
 	
@@ -20,6 +20,9 @@ for(char character : characters )
 {
 	System.out.print(character+",");//H,e,l,l,o, ,W,o,r,l,d,
 }
-		
+	
+System.out.println("\n----------------------------------");
+
+System.out.println(Arrays.toString(characters));//toString is use to convert character  to string format
 	}
 }
