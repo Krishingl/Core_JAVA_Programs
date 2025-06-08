@@ -15,7 +15,7 @@ public class EqualsMethodDemo {
 		
 		
 		String s1 = "Ram";
-		String s2 = "Sham";
+
 	
 		String s3 = new String("Ram");
 		
