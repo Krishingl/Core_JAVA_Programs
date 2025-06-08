@@ -16,6 +16,13 @@ public class ReplaceMethodDemo {
 		
 		System.out.println("Here replace String inside sub String  : "+s2.replace("Man","Dam"));
 		
+		
+		/*
+		replace() method are overloaded method in the String class. 
+       that can be use to replace particular character and also the particular part of string.
+       Its return type is the String only.
+		 */
+		
 	}
 
 }

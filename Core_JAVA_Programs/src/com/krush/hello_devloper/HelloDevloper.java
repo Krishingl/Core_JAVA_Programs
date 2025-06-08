@@ -7,6 +7,5 @@ public class HelloDevloper {
 public static void main(String[] args) {
 	 System.out.println("Hello Devloper from main_frame_satck");
 	 
-	 
 }
 }
