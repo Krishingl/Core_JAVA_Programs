@@ -51,7 +51,7 @@ public class PaymentProcess {
 		     
 		      
 		case 3:
-			System.out.println("   Enter your 16 digit Credit Card Number : ");
+			System.out.println("   Enter your 16 digit Credit Card Number : ");   
 		       card=sc.nextLine();
 		       
 			
