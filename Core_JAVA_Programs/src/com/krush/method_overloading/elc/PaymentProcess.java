@@ -32,6 +32,7 @@ public class PaymentProcess {
 		      py.makePayment(amount);
 		      
 		      break;
+		      
 		case 2:
 			System.out.println("  Enter your name :");
 			String name= sc.nextLine();
@@ -68,7 +69,7 @@ public class PaymentProcess {
 		
 		
 		
-		
+		sc.close();
 		
 		
 	}
