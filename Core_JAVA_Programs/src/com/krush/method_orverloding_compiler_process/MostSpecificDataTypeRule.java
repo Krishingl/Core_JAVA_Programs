@@ -24,9 +24,9 @@ public class MostSpecificDataTypeRule {
 	//float>long
 	//long>int
 	//int>char
-	//int >short
+	//int >short     {no relation between char and short if its combination there then the compiler Showing error.}
 	//short>byte
-	//char>byte
+	
 	
          public  void makePayment(long... a) 
          {
