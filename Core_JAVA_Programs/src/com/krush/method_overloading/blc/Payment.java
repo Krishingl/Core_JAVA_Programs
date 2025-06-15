@@ -2,13 +2,6 @@ package com.krush.method_overloading.blc;
 
 public class Payment {
 	
-	  
-	
-	
-	
-	
-	
-	
 	public void makePayment(double amount)
 	{
 		  if( validateAmount(amount)) {
