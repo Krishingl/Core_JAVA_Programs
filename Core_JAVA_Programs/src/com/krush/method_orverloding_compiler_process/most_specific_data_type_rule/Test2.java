@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class Test2 {
 	
-	
+
+	  
 public static void main(String[] args) throws InstantiationException, IllegalAccessException {
-		
 		
 		Test2 t= Test2.class.newInstance(); 
 		
@@ -18,6 +18,11 @@ public static void main(String[] args) throws InstantiationException, IllegalAcc
 		t.accept(12);
 		
 	
+		
+		sc=null;
+		
+		System.gc();
+		
 		
 		
 		
