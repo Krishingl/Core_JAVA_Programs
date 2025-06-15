@@ -2,9 +2,8 @@ package com.krush.method_overloading.blc;
 
 public class LoginServices {
 	
-	
-	
-	public void login(String emailId, String password ) {
+	public void login(String emailId, String password ) 
+	{
 		
 		
 		if(emailIdValidation(emailId)&&  validationPassword(password))
@@ -23,6 +22,13 @@ public class LoginServices {
 				}else
 					System.err.println(" <!>Invalid MobileNumber or OTP Please Enter Valid....");
 				
+	}
+	
+	public void login(String provider) {
+		
+		if(provider.equalsIgnoreCase("google"))
+		System.out.println("Logined Sucessfully with provider Account :"+provider+" ....");
+		else System.err.println("Please Select valid Platform (hint: google)");
 	}
 	
 	
