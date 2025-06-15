@@ -58,6 +58,7 @@ public class LoginServicesDemo {
 			System.err.println("Select Correct Option...!");
 
 		}
+		sc.close();
 
 	}
 }
