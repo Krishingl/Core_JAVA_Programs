@@ -18,7 +18,7 @@ public class PolymorphicBehaviourDemo1 {
 	}  
 	
 	
-	public static void checkAnimalType(Animal a)
+	public static void checkAnimalType(Animal a)//loose coupling we can pass any sub class of object here.
 	{
 		
 		
