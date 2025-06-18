@@ -15,14 +15,14 @@ public class PolymorphicBehaviourDemo1 {
 		
 		
 		
-	}
+	}  
 	
 	
 	public static void checkAnimalType(Animal a)
 	{
 		
 		
-		a.roam();   // Loosely coupling because  we cannot call the Dog class specific object if we want call then we should be required tightly coupling means Dog class reference Variable inside 
+		a.roam();   // here because  we cannot call the Dog class specific object if we want call then we should be required tightly coupling means Dog class reference Variable inside 
 	}               // have Dog Type Object that means we call the specific properties or functionality of sub class.
             
 }
