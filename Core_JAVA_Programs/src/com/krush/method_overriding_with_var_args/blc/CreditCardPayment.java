@@ -11,7 +11,7 @@ public class CreditCardPayment extends Payment
 		
 	}
 	
-//	public void offer() {
-//		System.out.println("10% in");
-	//}
+public void offer() {
+		System.out.println("Get 10% instance Discount ");
+	}
 }

@@ -9,5 +9,9 @@ public class UPI extends Payment {
 	
 		System.out.println("Processing UPI payment");
 	}
+	
+	public void offer() {
+		System.out.println("Get 100 instance Cash Back...! ");
+	}
 
 }

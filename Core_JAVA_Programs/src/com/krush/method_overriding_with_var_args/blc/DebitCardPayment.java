@@ -8,6 +8,8 @@ public class DebitCardPayment extends Payment {
 		System.out.println("Processing Debit Card payment");
 	}
 	
-	
+	public void offer() {
+		System.out.println("Get  No Cost EMI Discount ");
+	}
 
 }
