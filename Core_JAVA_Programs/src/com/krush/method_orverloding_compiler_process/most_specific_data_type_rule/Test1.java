@@ -33,6 +33,14 @@ public class Test1 {
 		
 	}
 	
+//	public void accept(long a)
+//	{
+//		
+//		System.out.println("float  is having more priority because its more Specific as compare to double.");
+//		
+//		
+//		
+//	}
 	
 
 }
