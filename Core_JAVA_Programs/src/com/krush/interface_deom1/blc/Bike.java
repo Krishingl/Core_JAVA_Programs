@@ -1,6 +1,4 @@
-package com.krush.interface_deom1.elc;
-
-import com.krush.interface_deom1.blc.Moveable;
+package com.krush.interface_deom1.blc;
 
 final class Bike implements Moveable{
 	
