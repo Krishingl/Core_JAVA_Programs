@@ -72,7 +72,7 @@ public class InterfaceAsReturnTypeOfMethod {
 	{
 		getGame(1).start();
 		getGame(2).start();
-		getGame(1).end();
+		getGame(2).end();
 		getGame(2).end();
 
 	}
