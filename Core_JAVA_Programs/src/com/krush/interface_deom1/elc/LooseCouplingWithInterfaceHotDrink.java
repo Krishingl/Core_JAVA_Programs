@@ -11,8 +11,7 @@ public class LooseCouplingWithInterfaceHotDrink {
 		    Restuarent.prepareHotDrink(new Tea());
 
 		    Restuarent.prepareHotDrink(new Coffee());
-		    
-		    Restuarent.prepareHotDrink(new Coffee());
+		    Restuarent.prepareHotDrink(new Boost());
 		
 	}
 
