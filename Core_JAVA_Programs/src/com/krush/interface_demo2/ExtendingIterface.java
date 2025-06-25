@@ -1,6 +1,6 @@
 package com.krush.interface_demo2;
 
-
+import java.util.Iterator;
 
 interface A{
 	
@@ -28,8 +28,10 @@ class C implements B{
 	public void m2() {
 		System.out.println("hello i am m2");
 	}
+
 	
 }
+
 
 public class ExtendingIterface {
 	
@@ -37,7 +39,7 @@ public class ExtendingIterface {
 	public static void main(String[] args) {
 		C c=new C();
 		
-		
+	
 		c.m1();
 		c.m2();
 	}
