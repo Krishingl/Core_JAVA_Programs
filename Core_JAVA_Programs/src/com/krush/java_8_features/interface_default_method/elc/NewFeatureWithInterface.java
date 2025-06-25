@@ -34,8 +34,7 @@ public class NewFeatureWithInterface {
  * write inside the Car class but if we Write inside Car class directly then its
  * not visible to end-user its not showing on the user Interface thats problem
  * Before java 8 Version.
- * 
- * 
- * 
+
+
  * 
  */
