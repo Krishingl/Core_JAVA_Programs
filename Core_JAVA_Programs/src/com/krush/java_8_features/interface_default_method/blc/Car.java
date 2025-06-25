@@ -11,6 +11,11 @@ public class Car implements Vehicle {
 	    	 System.out.println("Car Is Having Horn.");
 	    	 
 	     }
-	     
+	     @Override
+	     public void degitalMetter() {
+	    	 
+	    	 System.out.println("Car provide the Digital metter facility..");
+	    	 
+	     }
 
 }

@@ -32,5 +32,6 @@ public interface Vehicle {
 	    	 System.out.println("Digital Metter facility comming soon.........");
 	    	 
 	     }
+	
 	     
 }

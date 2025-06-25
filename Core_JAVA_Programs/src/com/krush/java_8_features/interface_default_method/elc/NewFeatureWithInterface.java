@@ -10,12 +10,15 @@ public class NewFeatureWithInterface {
 		
 		v.horn();
 		v.run();
+		v.degitalMetter();
+		System.out.println("---------------------------------------------------------------------------------------------------");
 		
 		v=new Car();
 		
 		
 		v.horn();
 		v.run();
+		v.degitalMetter();
 			
 	}
 
