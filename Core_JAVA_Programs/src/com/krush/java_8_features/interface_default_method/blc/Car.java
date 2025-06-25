@@ -12,7 +12,8 @@ public class Car implements Vehicle {
 	    	 
 	     }
 	     @Override
-	     public void degitalMetter() {
+			public void degitalMetter() // JDK 1.8
+	     {
 	    	 
 	    	 System.out.println("Car provide the Digital metter facility..");
 	    	 
