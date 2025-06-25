@@ -1,6 +1,6 @@
 package com.krush.java_8_features.interface_default_method.blc;
 
-public class Bike {
+public class Bike implements Vehicle {
 	
 	
 	public void run() {
