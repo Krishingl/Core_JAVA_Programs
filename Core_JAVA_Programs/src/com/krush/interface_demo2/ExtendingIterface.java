@@ -1,6 +1,5 @@
 package com.krush.interface_demo2;
 
-import java.util.Iterator;
 
 interface A{
 	
