@@ -7,7 +7,13 @@ public class PaymentGateway {
 	{
 		System.out.println("Initiating Credit Card payment.");
 		
-		return payment;
+		if(payment instanceof CreditCardPayment) {
+			return payment;
+		}else {
+			return payment;
+		}
+		
+		
 		
 	}
 
