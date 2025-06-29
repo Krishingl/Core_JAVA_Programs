@@ -13,7 +13,7 @@ class Customer
 		
 	}
     @Override
-	public boolean equals(Object obj )//its Overriden method from Obejct Class
+	public boolean equals(Object obj ) //its Overriden method from Obejct Class
     {  
     	//Retreving the data from Current(First ) object
     	int id1=this.id;
