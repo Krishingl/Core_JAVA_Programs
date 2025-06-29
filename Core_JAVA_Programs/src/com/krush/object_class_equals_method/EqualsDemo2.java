@@ -40,7 +40,14 @@ class Customer
 }
 
 public class EqualsDemo2 {
-  public static void main(String[] args) {
+  public static void main(String[] args) 
+  {
+	  Customer c1= new Customer(111,"ram");
+	  Customer c2= new Customer(111,"ram");
+	  
+	  
+	  System.out.println("Compare the content of the two object by using equals Overrident method :"+c1.equals(c2)); //this equals method call the inside c1 object Custumer type.
+	  
 	
 }
 }
