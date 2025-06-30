@@ -1,4 +1,4 @@
-package com.krushna.type_parameter_demo;
+ package com.krushna.type_parameter_demo;
 
  class Box <T>{
 	private T data;
