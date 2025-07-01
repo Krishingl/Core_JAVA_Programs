@@ -19,7 +19,7 @@ public class FindingleapYearNotLeapYear {
 			System.out.println("leap year");
 			
 		}else
-		{
+		{ 
 			System.out.println("not a leap year input");
 			
 		}
