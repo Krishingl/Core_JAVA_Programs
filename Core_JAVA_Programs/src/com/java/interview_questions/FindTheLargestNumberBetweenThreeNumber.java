@@ -10,7 +10,7 @@ public class FindTheLargestNumberBetweenThreeNumber {
 		int n2=1000;
 		int n3=30;
 		  
-		
+	
 		System.out.println(n1>n2&&n1>n3?n1:n2>n3?n2:n3);
 		
 		if(n1>n2&&n1>n3) {
