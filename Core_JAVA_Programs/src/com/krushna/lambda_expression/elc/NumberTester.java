@@ -12,7 +12,12 @@ public class NumberTester {
 		
 		  //Prime mumber finding logic 
 		Predicate<Integer> isPrime=(num)-> {
+		
 			  boolean flag=true;
+			 
+			  if(num!=0) {
+				  
+			 
 			for(int i=2; i<=num/2; i++) {
 				
 				if(num%i==0) {
@@ -21,6 +26,9 @@ public class NumberTester {
 				     break;
 				}
 			}
+			  }else {
+				  flag= false;
+			  }
 			  
 		
 		return flag;
