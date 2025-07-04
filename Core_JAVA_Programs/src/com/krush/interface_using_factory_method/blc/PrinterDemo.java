@@ -15,6 +15,7 @@ public class PrinterDemo implements Printer {
 			@Override
 			public void print() {
 				System.out.println("Printing PrinterDome Anonymous Inner Class Inside Class Inside");
+				
 			}
 
 		};
