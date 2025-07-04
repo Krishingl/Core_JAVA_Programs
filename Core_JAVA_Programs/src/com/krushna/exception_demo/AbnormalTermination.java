@@ -23,6 +23,11 @@ public class AbnormalTermination {
 		
 		
 		
+		System.out.println("Main Method Ended...");
+		sc.close();
 		
+		
+		//here if we will pass b = 0 then we will get java.lang.ArithmaticException our program will be terminated midele, that is called abnormaly termination and halt in the middel.
+		// JVM internaly  have his Exception Handler, which will provide the exception message and Terminate the program i the middle
 	}
 }
