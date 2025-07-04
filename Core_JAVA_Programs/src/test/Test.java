@@ -9,8 +9,10 @@ public class Test {
 	public static void main(String args[])  throws IOException
 	{
 		BufferedReader br= new BufferedReader(new InputStreamReader(System.in) );
-	 String sr=	br.readLine();
-	 System.out.println(sr);
+
+		System.out.println("Enter Your Name");
+	 String name=	br.readLine();
+	 System.out.println(name);
 			
 	}
 }
