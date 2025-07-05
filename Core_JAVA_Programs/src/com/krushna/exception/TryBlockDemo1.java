@@ -31,6 +31,12 @@ public class TryBlockDemo1 {
 //	
 //}
 		
+		try {
+			
+		}
+		finally {
+			
+		}
 		
 		
 		
