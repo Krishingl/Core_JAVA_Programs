@@ -17,7 +17,7 @@ public class PasswordGenerator {
 		int pwdLength = 8;
 
 		Supplier<String> passwordSupplier = () -> {
-
+   
 			String password = "";
 
 			for (int i = 0; i < pwdLength; i++) {
