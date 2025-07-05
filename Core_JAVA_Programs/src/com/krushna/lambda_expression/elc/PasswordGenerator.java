@@ -24,7 +24,7 @@ public class PasswordGenerator {
 
 				Random r = new Random();
 				int num = r.nextInt(totalCharInPWD.length());
-
+   
 				password += totalCharInPWD.charAt(num);
 
 			}
