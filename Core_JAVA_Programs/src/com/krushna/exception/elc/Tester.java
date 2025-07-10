@@ -4,7 +4,7 @@ import com.krushna.exception.blc.ChildClass;
 
 public class Tester {
 
-	public static void  main(String[] args) {
+	public static void main(String[] args) {
 	 ChildClass c=new ChildClass();
 	 try(c){
 		for(String className : args) 
