@@ -1,9 +1,9 @@
 package com.krushna.custom.exception;
 
 import java.util.Scanner;
-
+//@SuppressWarnings("serial")
 class InvalidAgeException extends Exception {
-	// Version Compatibilty
+	// Version Compatibilty 
 	private static final long serialVersionUID = 1L;
 
 	public InvalidAgeException() {
@@ -26,12 +26,16 @@ public class CustomCheckedException
         	   int age= sc.nextInt();
         	   validateAge(age);
            } catch (InvalidAgeException e) {
-			
+			System.out.println(e.getMessage());
+			System.out.println("===============================================");
+			System.out.println(e.toString());
+			System.out.println("===============================================");
 			e.printStackTrace();
 		}
 	}
 	
-	static void validateAge(int age) throws InvalidAgeException{
+	static void validateAge(int age) throws InvalidAgeException
+	{//here we deal with checked exception that reason handling is compalsary
 		
 		if(age<18) {
 			throw new InvalidAgeException("Age is Invalid");
