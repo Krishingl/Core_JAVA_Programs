@@ -7,7 +7,7 @@ class GreaterMarksException extends RuntimeException {
 	private static final long serialVersionUID = 1L;
 
 	public GreaterMarksException() {
-
+           
 	}
 
 	public GreaterMarksException(String errorMessage) {
