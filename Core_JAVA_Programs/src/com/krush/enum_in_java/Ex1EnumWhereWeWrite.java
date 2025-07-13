@@ -3,29 +3,27 @@
 //1. write a enum Outside the class
 package com.krush.enum_in_java;
 
-enum Colours{
-	RED,BLUE,GREEN,YELLOW,WHITE,BLACK,ORANGE,PINK;//HERE SEMECOLON OPTIONAL
+enum Colours {
+	RED, BLUE, GREEN, YELLOW, WHITE, BLACK, ORANGE, PINK;// HERE SEMECOLON OPTIONAL
 }
 
 public class Ex1EnumWhereWeWrite {
-  //enum inside the class
-	
-	enum Months{
-		JANUARY,FEBRUARY,MARCH,APRIL,MAY,JUNE,JULY,AUGUST,SEPTEMBER,NOVEMBER,DECEMBER;
-		
+	// enum inside the class
+
+	enum Months {
+		JANUARY, FEBRUARY, MARCH, APRIL, MAY, JUNE, JULY, AUGUST, SEPTEMBER, NOVEMBER, DECEMBER;
+
 	}
+
 	public static void main(String[] args) {
-		
-    
-	@SuppressWarnings("unused")
-	// enum inside the method
-        
-		enum Season{
-			Winter,SPRING,SUMMER,AUTUMN
+
+		@SuppressWarnings("unused")
+		// enum inside the method
+
+		enum Season {
+			Winter, SPRING, SUMMER, AUTUMN
 		}
-		  
-		  
-		  
+
 	}
 
 }
