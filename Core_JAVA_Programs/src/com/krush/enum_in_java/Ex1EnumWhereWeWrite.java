@@ -17,8 +17,9 @@ public class Ex1EnumWhereWeWrite {
 	public static void main(String[] args) {
 		
     
+	@SuppressWarnings("unused")
 	// enum inside the method
-
+        
 		enum Season{
 			Winter,SPRING,SUMMER,AUTUMN
 		}
