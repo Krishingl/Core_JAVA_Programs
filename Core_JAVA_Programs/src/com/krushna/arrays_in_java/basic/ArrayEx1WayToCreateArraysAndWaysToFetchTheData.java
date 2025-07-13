@@ -45,7 +45,7 @@ public class ArrayEx1WayToCreateArraysAndWaysToFetchTheData {
 		// to solve that problem we have Anonymous array concept
 
 		// Anonymous Aarray using create array Object
-
+ 
 		int[] arr3 = { 10, 30, 40 };
 
 		// to print data in String Format Using toString(int [] arr) of Array class it
