@@ -49,6 +49,17 @@ public class ArrayEx1_JNI_CodingStandard {
 		boolean arr8[] = new boolean[5];
 		System.out.println("boolean array  \t\t\t\t " + arr8.getClass().getName());// [Z
 
+		
+		System.out.println();
+		System.out.println("Classes Array datatype ------------->  JNI Classes");
+		// Integer array , but Object is created internaly for the [Ljava.lang.Integer; class
+				Integer arr9[] = new Integer[5];
+				System.out.println("Integer array  \t\t\t\t " + arr9.getClass().getName());// [[Ljava.lang.Integer;
+
+				// String array , but Object is created internaly for the [Ljava.lang.String; class
+				String arr10[] = new String[5];
+				System.out.println("String array  \t\t\t\t " + arr10.getClass().getName());// [[Ljava.lang.String;
+// If we are try to create array of Any Class Internaly JVM are created JNI class that is [L + Fully Qualified Name (Our clas)
 	}
 
 }
