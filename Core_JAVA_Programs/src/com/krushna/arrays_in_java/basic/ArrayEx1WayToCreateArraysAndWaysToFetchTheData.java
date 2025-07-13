@@ -46,7 +46,7 @@ public class ArrayEx1WayToCreateArraysAndWaysToFetchTheData {
 
 		// Anonymous Aarray using create array Object
  
-		int[] arr3 = { 10, 30, 40 };
+		int[] arr3 = { 10, 30, 40 }; 
 
 		// to print data in String Format Using toString(int [] arr) of Array class it
 		// is a static final method inside a Array Class
