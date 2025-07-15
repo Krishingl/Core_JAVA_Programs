@@ -1,5 +1,7 @@
 package com.krush.interface_deom1.blc;
 
+import com.krushna.bank_application.blc.BankAccount;
+
 public class Customer implements Banking
 { 
 	private double balance ;
@@ -11,6 +13,7 @@ public class Customer implements Banking
 	}
 
 
+	
 	@Override
 	public void diposit(double balance) {
 		
