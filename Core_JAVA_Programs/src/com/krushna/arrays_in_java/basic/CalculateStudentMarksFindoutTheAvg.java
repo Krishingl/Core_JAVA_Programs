@@ -1,7 +1,11 @@
 package com.krushna.arrays_in_java.basic;
 import java.util.Scanner;
+
+import java.util.Arrays;
 import java.util.InputMismatchException;
 
+
+@SuppressWarnings("unused")
 public class CalculateStudentMarksFindoutTheAvg {
 
 	public static void main(String[] args) 
@@ -42,14 +46,8 @@ public class CalculateStudentMarksFindoutTheAvg {
 			System.err.println("Array Size Must Be Positive Integer");
 		}
 		
-	    
+	//int sum= Arrays.stream(new int[]{10,20,10}).sum(); //Stream API java 8
 	
-		   
-		
-		
-		
-		
-		
 
 	}
 
