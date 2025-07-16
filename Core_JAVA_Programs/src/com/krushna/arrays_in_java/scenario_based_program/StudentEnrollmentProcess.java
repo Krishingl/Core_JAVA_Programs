@@ -73,7 +73,7 @@ record EducationInstitute(Course []courses, Offer []offerse)
 				
 			    if(course.id()==courseId) {
 			    	
-			    	System.out.println("Thank You for enrolling Course "+course.name()+" " + studentName);
+			    	System.out.println("Thank You for enrolling "+course.name()+" Course " + studentName);
 			    	flag=true;
 			    }
 			    
