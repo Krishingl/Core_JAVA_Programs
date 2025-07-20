@@ -27,7 +27,7 @@ public class CustomerComparator {
     	String name =sc.nextLine();
     	
 
-    	System.out.print("Enter the Customer Id : ");
+    	System.out.print("Enter the Customer Bill : ");
     	Double bill = Double.parseDouble(sc.nextLine());
     	
     	
