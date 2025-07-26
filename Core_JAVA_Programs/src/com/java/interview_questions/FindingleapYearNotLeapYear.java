@@ -4,9 +4,7 @@ public class FindingleapYearNotLeapYear {
 
 	public static void main(String[] args) {
           
-		int leapYear=-1
-				
-				;
+		int leapYear=-1;
 		
 	
 		
