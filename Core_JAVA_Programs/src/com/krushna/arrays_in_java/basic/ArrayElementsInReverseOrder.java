@@ -32,7 +32,7 @@ Scanner sc = new Scanner(System.in);
 			}
 			System.out.print(arr[0]);
 		       
-	       }catch( ArrayIndexOutOfBoundsException|java.util.InputMismatchException e){
+	       }catch( ArrayIndexOutOfBoundsException| java.util.InputMismatchException e){
 		     
 			 System.out.println(e);
 		   
