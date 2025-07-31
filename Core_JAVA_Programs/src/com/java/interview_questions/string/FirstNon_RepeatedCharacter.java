@@ -13,7 +13,7 @@ public class FirstNon_RepeatedCharacter
 			  {
 				  if(str.charAt(i)==str.charAt(i)) 
 				  {
-					
+				
 				  }
 			  }
 			
